@@ -1,0 +1,13 @@
+dn: ou=fabriques,dc=edt,dc=org
+objectClass: organizationalunit
+ou: fabriques
+description: fabriques de piruletes
+
+dn: cn=John Doe,ou=fabriques,dc=edt,dc=org
+objectClass: inetorgperson
+objectClass: posixAccount
+sn: joan
+homeDirectory: /tmp/home/john
+uid: john
+uidNumber: 1010
+gidNumber: 300

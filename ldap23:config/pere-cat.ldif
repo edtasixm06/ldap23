@@ -1,0 +1,29 @@
+dn: dc=pere,dc=cat
+dc: pere
+description: organitzacio de en pere
+objectClass: dcObject
+objectClass: organization
+o: pere.cat
+
+dn: ou=empleats,dc=pere,dc=cat
+ou: empleats
+description: Container per a persones empleades
+objectclass: organizationalunit
+
+dn: cn=Pau Pou,ou=empleats,dc=pere,dc=cat
+objectclass: inetOrgPerson
+cn: Pau Pou
+cn: Pauet Pou
+sn: Pou
+homephone: 555-222-2220
+mail: pau@pere.cat
+description: Watch out for this guy
+
+dn: cn=Anna Pou,ou=empleats,dc=pere,dc=cat
+objectclass: inetOrgPerson
+cn: Anna Pou
+cn: Annita Pou
+sn: Pou
+homephone: 555-222-2221
+mail: anna@pere.cat
+description: Watch out for this girl
