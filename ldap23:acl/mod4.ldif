@@ -1,0 +1,5 @@
+dn: cn=Jordi Mas,ou=usuaris,dc=edt,dc=org
+changetype: modify
+add: description
+description: nova descripcio1
+description: nova descripcio2

@@ -1,0 +1,10 @@
+dn: cn=Pau Pou,ou=usuaris,dc=edt,dc=org
+changetype: modify
+delete: homePhone
+-
+add: homePhone
+homePhone: 123456789
+-
+replace: mail
+mail: binladen@bum
+

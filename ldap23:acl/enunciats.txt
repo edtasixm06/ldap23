@@ -1,0 +1,14 @@
+LDAP: ACLS
+
+Els usuaris es poden modificar el passwd, el mail i el homePhone. No poden veure el passwd dels altres ni el homePhone. La resta d’atributs tothom els pot veure tots.
+
+
+Anna Pou fa d’administradora i ho pot modificar tot de tothom. Pere Pou fa d’ajudant i pot modificar el mail i homePhone de tothom.  
+Tothom pot veure les dades de tohom excepte els passwords.
+
+
+Anna Pou fa d’administradora i ho pot modificar tot de tothom. Pere Pou fa d’ajudant i pot modificar el mail i homePhone de tothom. 
+Els usuaris poden veure tots els valors de tothom excepte homePhone i passwd que només poden veure el seu.
+
+
+
